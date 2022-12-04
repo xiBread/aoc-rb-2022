@@ -1,0 +1,10 @@
+{
+	"code-runner.executorMap": {
+		"ruby": "cat inputs/$fileNameWithoutExt.txt | ruby src/$fileName"
+	},
+	"[ruby]": {
+		"editor.defaultFormatter": null,
+		"files.insertFinalNewline": false,
+		"files.trimFinalNewlines": true,
+	},
+}

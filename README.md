@@ -1,16 +1,9 @@
 # Advent of Code - 2022: Ruby
 
-Advent of Code 2022 solutions in golfed Ruby. Each file will include a comment with the correct answers and the byte size excluding the comment itself and the `require` that exposes the necessary `l` function.
+Advent of Code 2022 solutions in [golfed](https://en.wikipedia.org/wiki/Code_golf) Ruby.
 
-For example, this is how [`01.rb`](src/01.rb) looks:
-
-```rb
-require "./aoc"
-
-p l("
-
-"){eval _1.gsub(/
-/,?+)}.max,$i.sort.last(3).sum
-
-# 55 bytes; 67622, 201491
-```
+|       Day       | Bytes |       Answers        |
+| :-------------: | :---: | :------------------: |
+| [01](src/01.rb) |  54   | `67_622` / `201_491` |
+| [02](src/02.rb) |  89   | `11_906` / `11_186`  |
+| [03](src/03.rb) |       |
